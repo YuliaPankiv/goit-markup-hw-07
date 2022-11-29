@@ -1,0 +1,26 @@
+.subscription{}
+
+.subscription__input {
+  width: 358px;
+  padding: 15px;
+  margin-right: 12px;
+  background-color: transparent;
+  color: $primary-write-color;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscription__btn {
+  @extend %button;
+  @include centredFlex($df: inline-flex);
+}
+
+.subscription__icon {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icon-send.svg);
+  background-size: contain;
+}

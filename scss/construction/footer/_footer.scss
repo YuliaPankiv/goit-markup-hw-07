@@ -1,0 +1,53 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $bd-color-footer;
+  
+  & .container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+.footer__box {
+  margin-right: 70px;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+.footer-logo{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer .contact__item {
+  margin-bottom: 9px;
+}
+.footer .contact__link{
+  @include font($fw: 400, $ls: 0.03em, $lh: 1.71);
+
+}
+
+
+.footer__social-box{
+  margin-right: 93px;
+}
+
+ 
+.footer .social-list__icon {
+  fill: $primary-write-color;
+}
+
+.footer .social-list__item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+
+.footer__social-title {
+@include subtitle($text: $primary-write-color, $mb: 20px)
+}
+
+.subscription__title{
+  @include subtitle($text: $primary-write-color, $mb: 20px)
+
+}

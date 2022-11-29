@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  max-height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $primary-write-color;
+  border-bottom: 1px solid #ececec;
+  z-index: 1;
+
+  & .container {
+    display: flex;
+  }
+}
+
+.header__logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 93px;
+
+}
+
+.header__contact {
+  display: flex;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+  align-items: center;
+  column-gap: 30px;
+}
+
+
+.main-nav {
+  display: flex;
+  @include font($fw:500, $ls:0.02em);
+}
+
+

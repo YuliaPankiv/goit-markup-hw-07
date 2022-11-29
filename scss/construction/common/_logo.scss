@@ -1,0 +1,29 @@
+.logo {
+  @include font($fw: 700, $fs: 26px, $lh: 1.19);
+
+  color: $accent-color;
+  font-family: 'Raleway';
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.studio_color_black{
+  color: $primary-black-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+}
+.studio_color_write{
+  color: $primary-write-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+}

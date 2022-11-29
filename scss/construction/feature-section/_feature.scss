@@ -1,0 +1,32 @@
+.feature {
+  @extend %section;
+}
+
+.feature__list {
+  @extend %list;
+  display: flex;
+  gap: 30px;
+}
+.feature__wrapper {
+  @include centredFlex;
+  width: 270px;
+  height: 120px;
+  background: $bd-color-filter;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.feature__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.feature__subtitle {
+  @include subtitle($text: $title-text-color, $mb: 10px);
+}
+
+.feature__description{
+  @include font($lh: 1.71);
+}
+
+
